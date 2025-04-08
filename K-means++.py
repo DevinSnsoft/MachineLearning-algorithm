@@ -145,3 +145,5 @@ if __name__ == '__main__':
     sse = sum(cluster_assment[:, 1])
     print("sse is ", sse)
     plot_cluster(data_mat, cluster_assment, centroid)
+    # 测试合并分支
+    print("测试合并分支")
